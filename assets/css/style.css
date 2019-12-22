@@ -106,6 +106,8 @@ a {
 .auto-size{
     height: 125px ;
     width: 125px;
+    border-radius: 10%;
+    padding: 2%;
     }
 .name_header {
     background-color: #4aaaa5;
@@ -152,6 +154,7 @@ nav > li > a:focus {
     }
 #inline_image{ 
 display:inline-block;
+
 }
 #photo-container{
     height: 20%;
