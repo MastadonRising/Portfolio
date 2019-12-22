@@ -63,7 +63,7 @@ p{
     color: #777777;
     display: inline;
     font-weight: 200;
-    font-family: monospace;
+    font-family: 'Libre Franklin', sans-serif;
     font-size: larger;
 }
 
@@ -82,14 +82,16 @@ a {
     float: right;
     margin-left: 10px;
     margin-right: 10px;
+    font-family: 'Libre Franklin', sans-serif;
    }
 
  a:hover {
    font-size: large;
    font-weight: bold;
-   border-style: dotted;
-   border-color: lightslategray;
-   border-width: 3px;
+   font-family: 'Libre Franklin', sans-serif;
+   box-shadow: 0px 8px 16px 0px steelblue ;
+   background-color: lightsteelblue;
+   opacity: 30%;
  }  
 
  .bottom-border{
@@ -139,6 +141,7 @@ nav li > a {
     position: relative;
     display: block;
     padding: 10px 15px;
+    font-family: 'Libre Franklin', sans-serif;
 }
 nav > li > a:hover,
 nav > li > a:focus {
