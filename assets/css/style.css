@@ -118,6 +118,7 @@ a {
     border: solid ;
     border-width: thin;
     margin-left: 10%;
+    
    
    
 }
@@ -170,8 +171,10 @@ display:inline-block;
         position: relative;
         }
     .name_header {
-        float: left;
+            float: left;
     }
-       
-    
+    nav{
+        display: inline;
+        float: none;
+    }
 }
