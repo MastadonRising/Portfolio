@@ -35,3 +35,17 @@ h4{
 #main{
     text-align: center;
 }
+
+@media (max-width:768px) {
+  img {
+    width:80vw;
+    height: 20vh;
+    margin-bottom: 4%;
+}
+.container {
+font-size: 150%;
+}
+.card{
+  width: 80vw;
+}
+}
