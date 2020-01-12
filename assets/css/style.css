@@ -164,3 +164,14 @@ display:inline-block;
     width: 100%;
     position: relative;
 }
+@media (max-width:768px) {
+
+    #inline_Paragraph{
+        position: relative;
+        }
+    .name_header {
+        float: left;
+    }
+       
+    
+}
